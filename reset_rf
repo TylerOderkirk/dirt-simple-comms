@@ -1,3 +1,7 @@
+#!/bin/bash
+
+# requires gpio utility from http://wiringpi.com/download-and-install/
+
 gpio -g mode 17 out
 gpio -g write 17 0
 gpio -g write 17 1
